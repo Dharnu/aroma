@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 5, 2018, 11:51:34 AM
+    Author     : dsaminathan
+*/
+
+header {
+    width: 96%;
+    min-height: 100px;
+    color: green;
+    margin: 0px auto;
+    
+/*    flex: 1;*/
+}
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E9E6E1;
+    min-height: 75px;
+}
+.logoContainerPrimary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #E9E6E1;
+    min-height: 75px;
+}
+.searchBar {
+    padding: 0px 5px 2px;
+    border: none;
+}
+/*input[type="search"]:focus {
+    border-bottom: 1px solid grey;
+    outline: none;
+}*/
+input[type="search"]:active, input[type="search"]:focus{
+    border:none;
+    cursor:text;
+    border-bottom: 1px solid grey;
+    box-shadow:none;
+    outline: none;
+}
+.aromaLogo {
+    width: 375px;
+}
+.headerRight {
+    display: flex;
+    height: 100%;
+}
+.userAcc {
+    display: flex;
+    align-items: center;
+    height: 90%;
+    margin: auto;
+}
+.aromaCart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    height: 90%;
+    border-left: 1px solid grey;
+    margin: auto;
+    padding: 15px 0px;
+}
+.aromaCart > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60%;
+}
+.lanPicker {
+    border: 1px solid darkseagreen;
+    border-radius: 1px;
+    color: green;
+}
+.headerMenuContainer {
+    background: #393939;
+    height: 45px;
+    color: white;
+}
+.headerMenu {
+    font-size: 15px;
+    float: right;
+    margin: auto 15px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+.headerMenu > li {
+    padding: 0px 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menuActive {
+    background: grey;
+}
+.headerMenu > li:hover {
+    background: grey;
+}
+.headerMenu > li > a {
+    display: block;
+    white-space: nowrap;
+    font-family: "Montserrat","Helvetica Neue",Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: white;
+}
